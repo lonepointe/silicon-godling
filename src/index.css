@@ -78,7 +78,10 @@ button:focus-visible {
 
 
 .fire-active {
-  background: linear-gradient(to right, #f93 var(--progress, 0%), #333 var(--progress, 0%));
+/*  background: linear-gradient(to right, #f93 var(--progress, 0%), #333 var(--progress, 0%)); */
+/*  background: linear-gradient(to right, #f93 var(--progress, 0%), #222 var(--progress, 0%)); */
+  background: linear-gradient(to right, #f93 var(--progress, 0%), transparent var(--progress, 0%));
+
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #000;
