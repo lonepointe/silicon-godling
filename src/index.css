@@ -76,14 +76,16 @@ button:focus-visible {
   margin: 5px 0;
 }
 
+
 .fire-active {
-  background-image: linear-gradient(to right, #f93 var(--progress, 0%), #333 var(--progress, 0%));
+  background: linear-gradient(to right, #f93 var(--progress, 0%), #333 var(--progress, 0%));
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: #000;
   font-weight: bold;
-  border: none;
+  border: 2px solid #f93;
   border-radius: 5px;
   padding: 10px 20px;
-  margin: 5px 0;
-  transition: background 0.5s linear;
-  background-size: var(--progress, 0%) 100%;
+  margin: 5px;
+  transition: background 0.2s linear;
 }

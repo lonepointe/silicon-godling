@@ -23,7 +23,7 @@ function ButtonPanel({
       {fire ? `Fire (${fireDuration}s)` : 'Kindle Fire'}
       </button>
       
-      <button onClick={onCookFood}>Cood Food</button>
+      <button onClick={onCookFood}>Cook Food</button>
     </div>
   );
 }
